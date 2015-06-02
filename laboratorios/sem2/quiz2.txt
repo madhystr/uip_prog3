@@ -1,0 +1,5 @@
+modos de programacion en Python:
+
+norma: se escribe en un notepad con codigos estruurados y luego el lo analiza y lo ejecuta.
+
+interactivo: analiza linea por linea 
