@@ -1,2 +1,2 @@
- nombre= Madelhen Esquivel
- Print ("Hola," + nombre)
+nombre= ("Madelhen Esquivel")
+print ("Hola," + nombre)
