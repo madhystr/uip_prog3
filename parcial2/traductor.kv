@@ -1,0 +1,36 @@
+#!/usr/bin/python
+# -*- coding: 850 -*-
+<PrincipalScreen>:
+	canvas:
+		Color:
+			rgba: 226/255., 54/255., 189/255., 1
+		Rectangle:
+			pos: self.pos
+			size: self.size
+	Label:
+		text: (U'[b] Introduzca la palabra [/b]')
+		markup: True
+		font_size: 30
+		size_hint:(None, None)
+		size:(300, 30)
+		pos_hint:{'center_x': .3 , 'center_y': .8}
+	TextInput:
+		id: nom1
+		font_name: 'britanic.ttf'
+		size_hint:(None, None)
+		size: (300, 30)
+		pos_hint:{'center_x': .7,'center_y': .8}
+        text: ''
+	TextInput:
+		id: nom2
+		font_name: 'britanic.ttf'
+		size_hint:(None, None)
+		size: (400, 40)
+		pos_hint:{'center_x': .5,'center_y': .5}
+		text: ''
+	Button:
+		text: 'Traducir'
+		size_hint:(None, None)
+		size:(250, 50)
+		pos_hint:{'center_x': .5,'center_y': .20}
+		on_press: root.Traducir()
